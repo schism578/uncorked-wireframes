@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Uncorked</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav role='navigation'>
+        <span id='nav-link'>Home</span>
+        <span id='nav-link'>Search</span>
+        <span id='nav-link'>History</span>
+    </nav>
+    <main role='main'>
+        <header role='banner'>
+            <h1>Uncorked</h1>
+        </header>
+        <section>
+            <form class='wine-form'>
+                <fieldset>
+                    <legend>Add a New Wine</legend>
+                    <span name='camera' id='camera'>
+                        Click to Take a Photo
+                    <br>
+                    <img src='../images/camera.png' alt='camera' id='camera-image' />
+                    </span>
+                    <div>
+                        <label for='winemaker'>Winemaker</label>
+                        <input placeholder='winemaker' type='text' name='winemaker' id='winemaker' />
+                    </div>
+                    <div>
+                        <label for='wine-name'>Wine Name</label>
+                        <input placeholder='wine name' type='text' name='wine-name' id='wine-name' />
+                    </div>
+                    <div>
+                        <label for='varietals'>Grape Varietals</label>
+                        <input placeholder='grape varietals' type='text' name='varietals' id='varietals' />
+                    </div>
+                    <div>
+                        <label for='vintage'>Vintage</label>
+                        <input placeholder='vintage' type='text' name='vintage' id='vintage' />
+                    </div>
+                    <div>
+                        <label for='tasting-notes'>Tasting Notes</label>
+                        <input placeholder='tasting notes' type='text' name='tasting-notes' id='tasting-notes' />
+                    </div>
+                    <div>
+                        <label for='rating'>Rating</label>
+                        <input placeholder='* * * * *' type='text' name='rating' id='rating' />
+                    </div>
+                </fieldset>
+                <button type='submit'>Save</button>
+            </form>
+        </section>
+    </main>
+    <footer role="content-info">Footer</footer>
+</body>

@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans",
+    sans-serif;
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+}
+
+nav, footer {
+    padding: 1% 0;
+    background-color: #aaa;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#nav-link {
+    margin: 0 80px;    
+}
+
+header {
+    padding: 45px 15px;
+}
+
+section {
+    min-height: 200px;
+    padding: 30px 15px;
+    background-color: #bbb;
+}
+
+section:nth-child(even) {
+    background-color: #ddd;
+}
+
+#camera-image {
+    max-width: 20vw;
+    max-height: 20vh;
+    border: 2px solid darkgray;
+}
+
+#tasting-notes {
+    min-width: 20vw;
+    min-height: 20vh;
+}
+
+p {
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+p + p {
+    margin-top: 15px;
+}
