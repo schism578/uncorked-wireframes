@@ -38,11 +38,7 @@ section:nth-child(even) {
     background-color: #ddd;
 }
 
-p {
-    margin: 0 auto;
-    max-width: 650px;
-}
-
-p + p {
-    margin-top: 15px;
+button {
+    padding: 0.5em 1em;
+    border-radius: 5px;
 }

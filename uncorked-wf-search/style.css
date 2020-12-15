@@ -46,21 +46,26 @@ section:nth-child(even) {
     background-color: #ddd;
 }
 
-#camera-image {
-    max-width: 20vw;
-    max-height: 20vh;
-    border: 2px solid darkgray;
+ul {
+    list-style-type: none;
+    text-align: center;
+    max-width: 60vw;
+    margin: 2em auto;
+}
+
+li {
+    text-align: left;
 }
 
 #tasting-notes {
     min-width: 20vw;
-    min-height: 20vh;
 }
 
 div {
     margin: 1em auto;
 }
 
-p + p {
-    margin-top: 15px;
+button {
+    padding: 0.5em 1em;
+    border-radius: 5px;
 }
